@@ -1,0 +1,58 @@
+[
+	{
+		"id": "javascript",
+		"title": "JavaScript",
+		"level": "Básico",
+		"description": "35 páginas",
+		"file": "https://drive.google.com/file/d/11Qd_2a9YfHq7Yt4IGLXwWRs6OFpSu-6o",
+		"color": "#e3e393",
+		"darkColor": "#959549"
+	},
+	{
+		"id": "react",
+		"title": "React",
+		"level": "Básico",
+		"description": "24 páginas",
+		"file": "https://drive.google.com/file/d/1Fn43usif0WWG3uggKxN6JpmwhbCBAvj9",
+		"color": "#8fdbf2",
+		"darkColor": "#4a8597"
+	},
+	{
+		"id": "react-hooks",
+		"title": "React Hooks",
+		"level": "Básico",
+		"description": "12 páginas",
+		"file": "https://drive.google.com/file/d/1kzrqOTPyBsaHp_0EsBoBZyvcCS6o0pwo",
+		"color": "#9be2e6",
+		"darkColor": "#33999f"
+	},
+	{
+		"id": "python",
+		"title": "Python",
+		"level": "Básico",
+		"description": "25 páginas",
+		"file": "https://drive.google.com/file/d/12_1yUhaGeoH7wLGqrHiSx987FMdqM_Mv",
+		"color": "#a5cec1",
+		"darkColor": "#5A716A"
+	},
+	{
+		"id": "css",
+		"title": "CSS",
+		"level": "Básico/Intermedio",
+		"description": "62 páginas",
+		"file": "https://drive.google.com/file/d/1ChoJPc0Yhpq_QZhLSwjntqhum46WJ07Z",
+		"color": "#e1c3d6",
+		"darkColor": "#a65184",
+		"span": 2
+	},
+	{
+		"id": "poo-python",
+		"title": "POO con Python",
+		"level": "Intermedio",
+		"description": "10 páginas",
+		"file": "https://drive.google.com/file/d/1ChoJPc0Yhpq_QZhLSwjntqhum46WJ07Z",
+		"color": "#ecb2ad",
+		"darkColor": "#c64e45",
+		"span": 3
+	}
+]
