@@ -5,7 +5,18 @@ import {
 	Text,
 	useColorMode,
 } from '@chakra-ui/react';
+import { motion } from 'framer-motion';
+
 import Link from '@/components/Link';
+
+const item = {
+	hidden: { opacity: 0 },
+	visible: {
+		opacity: 1,
+	},
+};
+
+const GridItemFramer = motion(GridItem);
 
 const NoteItem = ({
 	title,
@@ -19,7 +30,7 @@ const NoteItem = ({
 	const { colorMode } = useColorMode();
 
 	return (
-		<GridItem
+		<GridItemFramer
 			colSpan={{ base: '1', md: span }}
 			as='li'
 			listStyleType='none'
@@ -28,6 +39,7 @@ const NoteItem = ({
 			textAlign='center'
 			bgColor={colorMode === 'light' ? color : darkColor}
 			borderRadius='3xl'
+			variants={item}
 		>
 			<Heading as='h2' mb={6}>
 				{title}
@@ -70,7 +82,7 @@ const NoteItem = ({
 					Descargar
 				</Link>
 			</HStack>
-		</GridItem>
+		</GridItemFramer>
 	);
 };
 
