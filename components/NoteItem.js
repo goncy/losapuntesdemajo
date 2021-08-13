@@ -64,19 +64,20 @@ const NoteItem = ({
 					display='inline-block'
 					py={2}
 					px={4}
-					color={colorMode === 'light' ? 'gray.100' : 'gray.200'}
+					color={colorMode === 'light' ? 'gray.800' : 'gray.200'}
+					fontWeight='bold'
 					textDecoration='none'
 					border='2px solid'
 					borderColor={
-						colorMode === 'light' ? 'gray.100' : 'gray.200'
+						colorMode === 'light' ? 'gray.800' : 'gray.200'
 					}
 					borderRadius='lg'
-					transition='filter 0.3s'
+					transition='background 0.3s'
 					_hover={{
 						textDecoration: 'none',
-						color: color,
+						color: colorMode === 'light' ? 'gray.100' : 'gray.900',
 						bgColor:
-							colorMode === 'light' ? 'gray.100' : 'gray.200',
+							colorMode === 'light' ? 'gray.800' : 'gray.200',
 					}}
 				>
 					Descargar
