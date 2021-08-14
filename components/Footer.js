@@ -20,7 +20,7 @@ const Footer = () => {
 					<SocialLink key={social.name} {...social} />
 				))}
 			</HStack>
-			<Text>Hecho con ♥️</Text>
+			<Text>Hecho a mano con ♥️</Text>
 		</Box>
 	);
 };
