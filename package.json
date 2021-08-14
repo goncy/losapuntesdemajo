@@ -1,34 +1,44 @@
 {
-  "name": "losapuntesdemajo",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "11.1.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "sass": "^1.37.5"
-  },
-  "devDependencies": {
-    "@types/react": "17.0.17",
-    "@typescript-eslint/eslint-plugin": "^4.29.1",
-    "@typescript-eslint/parser": "^4.29.1",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "^11.1.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.24.0",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.4.0",
-    "eslint-plugin-promise": "^5.1.0",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.3.2",
-    "typescript": "4.3.5"
-  }
+	"name": "losapuntesdemajo",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"prettier": "prettier --check .",
+		"next-lint": "next lint",
+		"prettier:lint": "prettier --write .",
+		"test-all": "npm run prettier && npm run lint && npm run build",
+		"prepare": "husky install"
+	},
+	"dependencies": {
+		"@chakra-ui/icons": "^1.0.15",
+		"@chakra-ui/react": "^1.6.6",
+		"@emotion/react": "^11.4.1",
+		"@emotion/styled": "^11.3.0",
+		"@fontsource/kanit": "^4.5.0",
+		"@fontsource/rubik": "^4.5.0",
+		"framer-motion": "^4.1.17",
+		"next": "11.1.0",
+		"next-seo": "^4.26.0",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"@types/react": "17.0.17",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^7.32.0",
+		"eslint-config-google": "^0.14.0",
+		"eslint-config-next": "^11.1.0",
+		"eslint-config-prettier": "^8.3.0",
+		"husky": "^7.0.1",
+		"prettier": "^2.3.2"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
 }
