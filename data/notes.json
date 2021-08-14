@@ -5,8 +5,8 @@
 		"level": "Básico",
 		"description": "35 páginas",
 		"file": "https://drive.google.com/file/d/11Qd_2a9YfHq7Yt4IGLXwWRs6OFpSu-6o",
-		"color": "#e3e393",
-		"darkColor": "#959549"
+		"color": "#f4f4c8",
+		"darkColor": "#bbad64"
 	},
 	{
 		"id": "react",
@@ -14,8 +14,8 @@
 		"level": "Básico",
 		"description": "24 páginas",
 		"file": "https://drive.google.com/file/d/1Fn43usif0WWG3uggKxN6JpmwhbCBAvj9",
-		"color": "#8fdbf2",
-		"darkColor": "#4a8597"
+		"color": "#bee9f7",
+		"darkColor": "#64a0b3"
 	},
 	{
 		"id": "react-hooks",
@@ -23,8 +23,8 @@
 		"level": "Básico",
 		"description": "12 páginas",
 		"file": "https://drive.google.com/file/d/1kzrqOTPyBsaHp_0EsBoBZyvcCS6o0pwo",
-		"color": "#9be2e6",
-		"darkColor": "#33999f"
+		"color": "#b3edf0",
+		"darkColor": "#5eaeb3"
 	},
 	{
 		"id": "python",
@@ -32,18 +32,17 @@
 		"level": "Básico",
 		"description": "25 páginas",
 		"file": "https://drive.google.com/file/d/12_1yUhaGeoH7wLGqrHiSx987FMdqM_Mv",
-		"color": "#a5cec1",
-		"darkColor": "#5A716A"
+		"color": "#c9ece1",
+		"darkColor": "#7c9b92"
 	},
 	{
 		"id": "css",
 		"title": "CSS",
 		"level": "Básico/Intermedio",
 		"description": "62 páginas",
-		"file": "https://drive.google.com/file/d/1ChoJPc0Yhpq_QZhLSwjntqhum46WJ07Z",
-		"color": "#e1c3d6",
-		"darkColor": "#a65184",
-		"span": 2
+		"file": "https://drive.google.com/file/d/1WqIw3tPS6gNhEnma7iHl-PEfByKSIYGK",
+		"color": "#e8d5e1",
+		"darkColor": "#c4629d"
 	},
 	{
 		"id": "poo-python",
@@ -51,8 +50,26 @@
 		"level": "Intermedio",
 		"description": "10 páginas",
 		"file": "https://drive.google.com/file/d/1ChoJPc0Yhpq_QZhLSwjntqhum46WJ07Z",
-		"color": "#ecb2ad",
-		"darkColor": "#c64e45",
-		"span": 3
+		"color": "#eaccc9",
+		"darkColor": "#db675e"
+	},
+	{
+		"id": "sql",
+		"title": "SQL",
+		"level": "Básico",
+		"description": "30 páginas",
+		"file": "https://drive.google.com/file/d/1SwcIcPijg0jSjLMAc86gDZV_iDmrKUih",
+		"color": "#D0D8EB",
+		"darkColor": "#8daaf0"
+	},
+	{
+		"id": "git",
+		"title": "Git",
+		"level": "Básico",
+		"description": "11 páginas",
+		"file": "https://drive.google.com/file/d/1sHgKrrea1-HpityOEYqFLjRdaum85CnW",
+		"color": "#e8cef7",
+		"darkColor": "#c280e8",
+		"span": 2
 	}
 ]
