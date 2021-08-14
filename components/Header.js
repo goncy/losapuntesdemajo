@@ -9,6 +9,7 @@ import {
 } from '@chakra-ui/react';
 
 import Link from '@/components/Link';
+import { TwitterIcon } from '@/styles/theme/icons';
 
 const Header = () => {
 	const [isMobileSize] = useMediaQuery('(max-width: 695px)');
@@ -25,11 +26,11 @@ const Header = () => {
 					Los apuntes de majo
 				</Heading>
 				<Text>
-					hi human! soy Majo👋🏻, realizo apuntes a mano sobre las
-					tecnologías más utilizadas. ¡Espero te sean de ayuda!
+					Majo here! 👋🏻, realizo apuntes a mano sobre las tecnologías
+					más utilizadas.
 				</Text>
 				<Text mt={2}>
-					Puedes sugerirme temas en{' '}
+					Podes sugerirme temas en <TwitterIcon color='#1da1f2' />{' '}
 					<Link
 						href='https://twitter.com/MajoLedes'
 						isExternal
@@ -47,6 +48,7 @@ const Header = () => {
 					alt='logo unicorn'
 					height='100'
 					width='100'
+					preload='true'
 				/>
 			</Center>
 		</Grid>
