@@ -14,14 +14,18 @@ const BuyMe = () => {
 			mt={6}
 			mx='auto'
 			maxW='900px'
-			bgColor={colorMode === 'light' ? '#f5deb3' : '#9b7123'}
+			bgColor={colorMode === 'light' ? '#f5deb3' : '#d0a24d'}
 			borderRadius='3xl'
 			textAlign='center'
 		>
 			<Heading fontSize='2xl' mb={2}>
 				Ayudame a seguir haciendo apuntes🙈
 			</Heading>
-			<Text mb={6} opacity='0.8'>
+			<Text
+				mb={6}
+				opacity='0.8'
+				color={colorMode === 'light' ? 'gray.800' : 'gray.200'}
+			>
 				Si te sirvieron y te interesa colaborar, podes ayudarme a través
 				de Cafecito o Buy Me a &quot;Coffee&quot;.
 			</Text>
